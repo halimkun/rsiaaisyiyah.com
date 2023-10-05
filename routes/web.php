@@ -51,9 +51,11 @@ Route::middleware('auth')->prefix('admin')->group(function ($router) {
     $router->post('/setting/poli/store', [PoliKlinikController::class, 'store'])->name('admin.sections.poli.store');
     $router->post('/setting/poli/update', [PoliKlinikController::class, 'update'])->name('admin.sections.poli.update');
     $router->post('/setting/poli/delete', [PoliKlinikController::class, 'delete'])->name('admin.sections.poli.delete');
+    
+    $router->post('/setting/fasilitas/title', [FasilitasController::class, 'updateSectionTitle'])->name('admin.sections.fasilitas.title');
+    $router->post('/setting/fasilitas/store', [FasilitasController::class, 'store'])->name('admin.sections.fasilitas.store');
 
     $router->post('/setting/dokter/title', [DokterController::class, 'updateSectionTitle'])->name('admin.sections.dokter.title');
-    $router->post('/setting/fasilitas/title', [FasilitasController::class, 'updateSectionTitle'])->name('admin.sections.fasilitas.title');
     $router->post('/setting/artikel/title', [ArtikelController::class, 'updateSectionTitle'])->name('admin.sections.artikel.title');
 });
 
