@@ -7,7 +7,7 @@
 
     <!-- Fasilitas -->
     <div class="w-full bg-white py-20">
-        <x-section.fasilitas />
+        <x-section.fasilitas :data="$fasil"/>
     </div>
     <!-- End Fasilitas -->
 </x-public-layout>

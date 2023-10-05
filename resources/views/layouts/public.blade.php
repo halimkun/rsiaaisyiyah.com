@@ -41,9 +41,13 @@
     <!-- footer -->
     @include('layouts.public.footer')
 
+    {{-- script CDN --}}
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
     @stack('modals')
     <script>
         const base_url = "{{ url('/') }}";
+        const base_api_url = "{{ env('BASE_API_URL') }}";
     </script>
     @stack('scripts')
 </body>

@@ -38,11 +38,11 @@
                 </div>
             </form>
         </div>
-        <div>
-            <x-not-ready />
+        <div class="w-full h-full bg-gray-200/50 flex items-center h-center rounded-lg">
+            <p class="text-gray-400 text-center p-10 w-full">
+                Konten pada section ini bergantung pada<br/>
+                <strong>API RSIA Aisyiyah Pekajangan.</strong>
+            </p>
         </div>
-    </div>
-    <div class="mt-5">
-        <x-not-ready />
     </div>
 </x-expand-wrapper>

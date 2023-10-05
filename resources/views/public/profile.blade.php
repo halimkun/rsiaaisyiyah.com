@@ -19,8 +19,8 @@
                     <div class="mt-4 flex gap-x-8">
                         <!-- Stats -->
                         <div>
-                            <p class="text-3xl font-semibold text-blue-500">99.95%</p>
-                            <p class="mt-1 text-gray-500">in fulfilling orders</p>
+                            <p class="text-3xl font-semibold text-blue-500">9.995</p>
+                            <p class="mt-1 text-gray-500">Pasien (bulanan)</p>
                         </div>
                         <!-- Stats -->
                         <div>

@@ -1,10 +1,10 @@
-<header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-30 w-full bg-white border-b border-white/[.5] text-sm py-3 sm:py-0">
-    <nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
+<header class="flex flex-wrap lg:justify-start lg:flex-nowrap z-30 w-full bg-white border-b border-white/[.5] text-sm py-3 lg:py-0">
+    <nav class="relative max-w-7xl w-full mx-auto px-4 lg:flex lg:items-center lg:justify-between lg:px-6 lg:px-8" aria-label="Global">
         <div class="flex items-center justify-between">
             <a class="flex-none text-xl font-semibold text-slate-800" href="{{ route('home') }}" aria-label="Brand">
                 <img src="{{ asset('logo/logo-rsia-aisyiyah-pekajangan.png') }}" alt="logo" class="block h-9 w-auto fill-current text-gray-800">
             </a>
-            <div class="sm:hidden">
+            <div class="lg:hidden">
                 <button type="button"
                     class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border border-white/[.5] font-medium text-slate-800/[.5] shadow-sm align-middle hover:bg-white/[.1] hover:text-slate-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm"
                     data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation"
@@ -20,10 +20,8 @@
                 </button>
             </div>
         </div>
-        <div id="navbar-collapse-with-animation"
-            class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
-            <div
-                class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
+        <div id="navbar-collapse-with-animation" class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow lg:block">
+            <div class="flex flex-col gap-y-4 gap-x-0 mt-5 lg:flex-row lg:items-center lg:justify-end lg:gap-y-0 lg:gap-x-7 lg:mt-0 lg:pl-7">
                 <x-preline-nav-link href="{{ route('home') }}" :active="request()->routeIs('home')">
                     Home
                 </x-preline-nav-link>
@@ -36,7 +34,7 @@
                 <x-preline-nav-link href="{{ route('jadwal') }}" :active="request()->routeIs('jadwal')">
                     Jadwal Dokter
                 </x-preline-nav-link>
-                <div class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] sm:[--trigger:hover] sm:py-4">
+                <div class="hs-dropdown [--strategy:static] lg:[--strategy:fixed] [--adaptive:none] lg:[--trigger:hover] lg:py-4">
                     <button type="button" class="flex items-center w-full text-slate-800/[.8] hover:text-slate-800 font-semibold">
                         Informasi
                         <svg class="ml-2 w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,7 +43,7 @@
                     </button>
 
                     <div
-                        class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 hidden z-50 bg-white sm:shadow-md rounded-lg p-2 dark:bg-gray-800 sm:dark:border dark:border-gray-700 dark:divide-gray-700 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5">
+                        class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] lg:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 lg:w-48 hidden z-50 bg-white lg:shadow-md rounded-lg p-2 dark:bg-gray-800 lg:dark:border dark:border-gray-700 dark:divide-gray-700 before:absolute top-full lg:border before:-top-5 before:left-0 before:w-full before:h-5">
                         <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
                             href="#">
                             Informasi Rumah Sakit
