@@ -49,6 +49,8 @@ Route::middleware('auth')->prefix('admin')->group(function ($router) {
     // setting routes
     $router->post('/setting/poli/title', [PoliKlinikController::class, 'updateSectionTitle'])->name('admin.sections.poli.title');
     $router->post('/setting/poli/store', [PoliKlinikController::class, 'store'])->name('admin.sections.poli.store');
+    $router->post('/setting/poli/update', [PoliKlinikController::class, 'update'])->name('admin.sections.poli.update');
+    $router->post('/setting/poli/delete', [PoliKlinikController::class, 'delete'])->name('admin.sections.poli.delete');
 
     $router->post('/setting/dokter/title', [DokterController::class, 'updateSectionTitle'])->name('admin.sections.dokter.title');
     $router->post('/setting/fasilitas/title', [FasilitasController::class, 'updateSectionTitle'])->name('admin.sections.fasilitas.title');

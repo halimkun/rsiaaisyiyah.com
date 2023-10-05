@@ -32,7 +32,7 @@
         @endforeach
     </div>
 
-    <x-modal name="poli-modal" :show="$errors->userDeletion->isNotEmpty()" maxWidth="xl">
+    <x-modal name="poli-modal" maxWidth="xl">
         <div class="p-5">
             <img x-bind:src="base_url + '/public/images/' + poli.gambar" class="max-h-[400px] w-full rounded-lg object-cover shadow-lg" alt="">
             <h3 class="mt-4 text-2xl font-bold text-blue-600" x-text="poli.nama_poli"></h3>
