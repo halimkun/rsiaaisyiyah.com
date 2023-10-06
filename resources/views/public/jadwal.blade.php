@@ -11,124 +11,7 @@
                     </h2>
 
                     <!-- Tab Navs -->
-                    <nav class="grid gap-3 mt-5 md:mt-10" aria-label="Tabs" role="tablist">
-                        <button type="button"
-                            class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active"
-                            id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1"
-                            role="tab">
-                            <span class="flex">
-                                <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
-                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z" />
-                                    <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                                </svg>
-                                <span class="grow ml-6">
-                                    <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Advanced
-                                        tools</span>
-                                    <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                                        Poli .....
-                                    </span>
-                                </span>
-                            </span>
-                        </button>
-
-                        <button type="button"
-                            class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
-                            id="tabs-with-card-item-2" data-hs-tab="#tabs-with-card-2" aria-controls="tabs-with-card-2"
-                            role="tab">
-                            <span class="flex">
-                                <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
-                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z" />
-                                </svg>
-                                <span class="grow ml-6">
-                                    <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Smart
-                                        dashboards</span>
-                                    <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                                        Poli .....
-                                    </span>
-                                </span>
-                            </span>
-                        </button>
-
-                        <button type="button"
-                            class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
-                            id="tabs-with-card-item-3" data-hs-tab="#tabs-with-card-3" aria-controls="tabs-with-card-3"
-                            role="tab">
-                            <span class="flex">
-                                <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
-                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5zM6.374 1 4.168 8.5H7.5a.5.5 0 0 1 .478.647L6.78 13.04 11.478 7H8a.5.5 0 0 1-.474-.658L9.306 1H6.374z" />
-                                </svg>
-                                <span class="grow ml-6">
-                                    <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Powerful
-                                        features</span>
-                                    <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                                        Poli .....
-                                    </span>
-                                </span>
-                            </span>
-                        </button>
-
-                        <button type="button"
-                            class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
-                            id="tabs-with-card-item-4" data-hs-tab="#tabs-with-card-4" aria-controls="tabs-with-card-4"
-                            role="tab">
-                            <span class="flex">
-                                <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
-                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    viewBox="0 0 16 16">
-                                    <path
-                                        d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z" />
-                                    <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                                </svg>
-                                <span class="grow ml-6">
-                                    <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Powerful
-                                        features</span>
-                                    <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                                        Poli .....
-                                    </span>
-                                </span>
-                            </span>
-                        </button>
-
-                        <button type="button"
-                            class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
-                            id="tabs-with-card-item-5" data-hs-tab="#tabs-with-card-5" aria-controls="tabs-with-card-5"
-                            role="tab">
-                            <span class="flex">
-                                <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
-                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd"
-                                        d="M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z" />
-                                </svg>
-                                <span class="grow ml-6">
-                                    <span
-                                        class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">Powerful
-                                        features</span>
-                                    <span
-                                        class="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
-                                        Poli .....
-                                    </span>
-                                </span>
-                            </span>
-                        </button>
-                    </nav>
+                    <nav class="grid gap-3 mt-5 md:mt-10" aria-label="Tabs" role="tablist" id="dokter-list"></nav>
                     <!-- End Tab Navs -->
                 </div>
                 <!-- End Col -->
@@ -136,96 +19,7 @@
                 <div class="lg:col-span-6">
                     <div class="relative">
                         <!-- Tab Content -->
-                        <div>
-                            <div id="tabs-with-card-1" role="tabpanel" aria-labelledby="tabs-with-card-item-1">
-                                <div class="shadow-xl bg-white shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]">
-                                    <div class="aspect-w-16 aspect-h-14">
-                                        <img class="w-full object-cover rounded-t-xl"
-                                            src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
-                                            alt="Image Description">
-                                    </div>
-                                    <div class="px-3 py-6">
-                                        <!-- Features -->
-                                        <div class="w-full px-4">
-                                            <x-jadwal-grid />
-                                        </div>
-                                        <!-- End Features -->
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="tabs-with-card-2" class="hidden" role="tabpanel"
-                                aria-labelledby="tabs-with-card-item-2">
-                                <div class="shadow-xl bg-white shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]">
-                                    <div class="aspect-w-16 aspect-h-14">
-                                        <img class="w-full object-cover rounded-t-xl"
-                                            src="https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
-                                            alt="Image Description">
-                                    </div>
-                                    <div class="px-3 py-6">
-                                        <!-- Features -->
-                                        <div class="w-full px-4">
-                                            <x-jadwal-grid />
-                                        </div>
-                                        <!-- End Features -->
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="tabs-with-card-3" class="hidden" role="tabpanel"
-                                aria-labelledby="tabs-with-card-item-3">
-                                <div class="shadow-xl bg-white shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]">
-                                    <div class="aspect-w-16 aspect-h-14">
-                                        <img class="w-full object-cover rounded-t-xl"
-                                            src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
-                                            alt="Image Description">
-                                    </div>
-                                    <div class="px-3 py-6">
-                                        <!-- Features -->
-                                        <div class="w-full px-4">
-                                            <x-jadwal-grid />
-                                        </div>
-                                        <!-- End Features -->
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="tabs-with-card-4" class="hidden" role="tabpanel"
-                                aria-labelledby="tabs-with-card-item-4">
-                                <div class="shadow-xl bg-white shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]">
-                                    <div class="aspect-w-16 aspect-h-14">
-                                        <img class="w-full object-cover rounded-t-xl"
-                                            src="https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
-                                            alt="Image Description">
-                                    </div>
-                                    <div class="px-3 py-6">
-                                        <!-- Features -->
-                                        <div class="w-full px-4">
-                                            <x-jadwal-grid />
-                                        </div>
-                                        <!-- End Features -->
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div id="tabs-with-card-5" class="hidden" role="tabpanel"
-                                aria-labelledby="tabs-with-card-item-5">
-                                <div class="shadow-xl bg-white shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]">
-                                    <div class="aspect-w-16 aspect-h-14">
-                                        <img class="w-full object-cover rounded-t-xl"
-                                            src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
-                                            alt="Image Description">
-                                    </div>
-                                    <div class="px-3 py-6">
-                                        <!-- Features -->
-                                        <div class="w-full px-4">
-                                            <x-jadwal-grid />
-                                        </div>
-                                        <!-- End Features -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        <div id="dokter-jadwal-list"></div>
                         <!-- End Tab Content -->
 
                         <!-- SVG Element -->
@@ -257,4 +51,123 @@
         </div>
     </div>
     <!-- End Features -->
+
+    @push('scripts')
+    <script>
+        const url = base_api_url + '/dokter/jadwal/get';
+        const imgUrl = "{{ env('IMG_URL') }}";
+    
+        $('#dokter-list').html('');
+        $('#dokter-jadwal-list').html('');
+
+        function fetchData(url) {
+            $.ajax({
+                url: url,
+                type: 'GET',
+                dataType: 'json',
+                success: function(response) {
+                    if (response.success) {
+                        var jadwal = response.data;
+                        buildListDokter(jadwal);
+                        buildListJadwal(jadwal);
+                    }
+                },
+                error: function(xhr) {
+                    console.log(xhr);
+                }
+            });
+        }
+
+        function buildListDokter(data) {
+            var i = 0;
+            $.each(data, function(index, item) {
+                var html = `
+                    <button type="button"
+                        class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 ${i == 0 ? 'active' : ''}"
+                        id="tabs-with-card-item-${i+1}" data-hs-tab="#tabs-with-card-${i+1}" aria-controls="tabs-with-card-${i+1}"
+                        role="tab">
+                        <span class="flex">
+                            <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                viewBox="0 0 16 16">
+                                <path
+                                    d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z" />
+                                <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                            </svg>
+                            <span class="grow ml-6">
+                                <span class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                                    ${item[0].nm_dokter}
+                                </span>
+                                <span class="block text-sm mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                                    ${item[0].spesialis.nm_sps.toUpperCase()}
+                                </span>
+                            </span>
+                        </span>
+                    </button>
+                `;
+                i++;
+                $('#dokter-list').append(html);
+            });
+        }
+
+        function buildListJadwal(data) {
+            var i = 0;
+            $.each(data, function (index, item) {
+                let html = `
+                    <div id="tabs-with-card-${i+1}" role="tabpanel" aria-labelledby="tabs-with-card-item-${i+1}" ${i != 0 ? 'class="hidden"' : ''}>
+                        <div class="shadow-xl bg-white shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"><div class="aspect-w-9 aspect-h-9">
+                                <img class="w-full object-cover object-top rounded-t-xl"
+                                    src="${imgUrl + "/" + item[0].pegawai.photo}"
+                                    onerror="this.onerror=null; this.src='https://t3.ftcdn.net/jpg/00/64/67/80/360_F_64678017_zUpiZFjj04cnLri7oADnyMH0XBYyQghG.jpg';"
+                                    alt="Image Description">
+                            </div>
+                            <div class="px-3 py-6">
+                                <!-- Features -->
+                                <div class="w-full px-4" id="jadwalDokterjam">${buildJadwalDokter(item[0].jadwal)}</div>
+                                <!-- End Features -->
+                            </div>
+                        </div>
+                    </div>
+                `;
+                i++;
+
+                $('#dokter-jadwal-list').append(html);
+            });
+        }
+
+        function buildJadwalDokter(jadwal) {
+            var jadwalByHari = [];
+            let hariJadwal = ''
+            
+            $.each(jadwal, function (index, item) {
+                if (jadwalByHari[item.hari_kerja] == undefined) {
+                    jadwalByHari[item.hari_kerja] = [];
+                    hariJadwal = item.hari_kerja;
+                }
+                jadwalByHari[item.hari_kerja].push(item);
+            });
+
+            let h = `<div class="grid gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-3 sm:gap-5 justify-between items-start w-full">`;
+            for (var hari in jadwalByHari) {
+                h += `<div>`;
+                        h += `<p class="text-xl font-semibold text-blue-500">${hari}</p>`;
+                    $.each(jadwalByHari[hari], function (index, item) {
+                        if (item.kuota > 0) {
+                            h += `<p class="mt-1 text-base text-gray-500">${item.jam_mulai.slice(0, 5)} - ${item.jam_selesai.slice(0, 5)}</p>`;
+                        } else {
+                            h += `<p class="inline-flex mt-1 text-xs bg-orange-100 border-2 border-orange-400 text-orange-500 font-bold px-4 rounded-full">LIBUR</p>`;
+                        }
+                    });
+                h += `</div>`;
+            }
+            h += `</div>`;
+            
+            return h;
+        }   
+
+        $(document).ready(function() {
+            fetchData(url);
+        });
+    </script>
+    @endpush
 </x-public-layout>
