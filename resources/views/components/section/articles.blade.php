@@ -2,10 +2,10 @@
     <div class="max-w-7xl mx-auto p-5 md:p-10 gap-5">
         <!-- Title -->
         <div class="max-w-2xl text-center mx-auto mb-10 lg:mb-14">
-            <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+            <h2 class="text-2xl font-bold md:text-4xl md:leading-tight ">
                 Informasi Teriki<br />RSIA Aisyiyah Pekajangan
             </h2>
-            <p class="mt-1 text-gray-600 dark:text-gray-400">
+            <p class="mt-1 text-gray-600 ">
                 Kami akan selalu memberikan informasi terbaru untuk Anda.
             </p>
         </div>
@@ -14,7 +14,7 @@
         <!-- Grid -->
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-10 lg:mb-14">
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -22,11 +22,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Product
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         Better is when everything works together
                     </h3>
                 </div>
@@ -34,7 +34,7 @@
             <!-- End Card -->
 
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -42,11 +42,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Business
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         What CFR really is about
                     </h3>
                 </div>
@@ -54,7 +54,7 @@
             <!-- End Card -->
 
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -62,11 +62,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Business
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         Should Product Owners think like entrepreneurs?
                     </h3>
                 </div>
@@ -74,7 +74,7 @@
             <!-- End Card -->
 
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -82,11 +82,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Facilitate
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         Announcing Front Strategies: Ready-to-use rules
                     </h3>
                 </div>
@@ -94,7 +94,7 @@
             <!-- End Card -->
             
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -102,11 +102,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Product
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         Better is when everything works together
                     </h3>
                 </div>
@@ -114,7 +114,7 @@
             <!-- End Card -->
 
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -122,11 +122,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Business
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         What CFR really is about
                     </h3>
                 </div>
@@ -134,7 +134,7 @@
             <!-- End Card -->
 
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -142,11 +142,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Business
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         Should Product Owners think like entrepreneurs?
                     </h3>
                 </div>
@@ -154,7 +154,7 @@
             <!-- End Card -->
 
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -162,11 +162,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Facilitate
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         Announcing Front Strategies: Ready-to-use rules
                     </h3>
                 </div>
@@ -174,7 +174,7 @@
             <!-- End Card -->
 
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -182,11 +182,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Product
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         Better is when everything works together
                     </h3>
                 </div>
@@ -194,7 +194,7 @@
             <!-- End Card -->
 
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -202,11 +202,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Business
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         What CFR really is about
                     </h3>
                 </div>
@@ -214,7 +214,7 @@
             <!-- End Card -->
 
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -222,11 +222,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Business
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         Should Product Owners think like entrepreneurs?
                     </h3>
                 </div>
@@ -234,7 +234,7 @@
             <!-- End Card -->
 
             <!-- Card -->
-            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition "
                 href="#">
                 <div class="aspect-w-16 aspect-h-9">
                     <img class="w-full object-cover rounded-t-xl"
@@ -242,11 +242,11 @@
                         alt="Image Description">
                 </div>
                 <div class="p-4 md:p-5">
-                    <p class="mt-2 text-xs uppercase text-gray-600 dark:text-gray-400">
+                    <p class="mt-2 text-xs uppercase text-gray-600 ">
                         Facilitate
                     </p>
                     <h3
-                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600 dark:text-gray-300 dark:group-hover:text-white">
+                        class="mt-2 text-lg font-medium text-gray-800 group-hover:text-blue-600  ">
                         Announcing Front Strategies: Ready-to-use rules
                     </h3>
                 </div>
@@ -257,9 +257,9 @@
 
         <!-- Card -->
         <div class="text-center">
-            <div class="inline-block bg-white border shadow-sm rounded-full dark:bg-slate-900 dark:border-gray-800">
+            <div class="inline-block bg-white border shadow-sm rounded-full ">
                 <div class="py-3 px-4 flex items-center gap-x-2">
-                    <p class="text-gray-600 dark:text-gray-400">
+                    <p class="text-gray-600 ">
                         Want to read more?
                     </p>
                     <a class="inline-flex items-center gap-x-1.5 text-blue-600 decoration-2 hover:underline font-medium"

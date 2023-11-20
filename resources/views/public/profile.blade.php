@@ -5,16 +5,16 @@
         <!-- Grid -->
         <div class="grid lg:grid-cols-7 lg:gap-x-8 xl:gap-x-12 lg:items-center">
             <div class="lg:col-span-3">
-                <p class="ml-1 text-2xl font-bold text-blue-700 dark:text-gray-400">
+                <p class="ml-1 text-2xl font-bold text-blue-700 ">
                     Profil
                 </p>
-                <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl dark:text-white">
+                <h1 class="block text-3xl font-bold text-gray-800 sm:text-4xl md:text-5xl lg:text-6xl ">
                     RSIA Aisyiyah Pekajangan
                 </h1>
 
                 <!-- Brands -->
                 <div class="mt-6 lg:mt-12">
-                    <span class="text-xs font-medium text-gray-800 uppercase dark:text-gray-200">Dipercaya :</span>
+                    <span class="text-xs font-medium text-gray-800 uppercase ">Dipercaya :</span>
 
                     <div class="mt-4 flex gap-x-8">
                         <!-- Stats -->
@@ -100,17 +100,17 @@
                             <div
                                 class="space-y-2 md:space-y-4 after:absolute after:bottom-0 after:mt-[1px] after:w-full after:h-1 after:bg-gray-300 after:rounded">
                                 <h2
-                                    class="font-bold text-xl lg:text-2xl text-gray-800 dark:text-gray-200 after:block after:mt-[1px] after:w-[13%] after:h-1 after:bg-blue-600 after:rounded after:absolute after:bottom-0 after:z-30">
+                                    class="font-bold text-xl lg:text-2xl text-gray-800  after:block after:mt-[1px] after:w-[13%] after:h-1 after:bg-blue-600 after:rounded after:absolute after:bottom-0 after:z-30">
                                     Visi
                                 </h2>
                             </div>
                         </div>
                         <blockquote class="relative">
                             <div
-                                class="text-4xl font-bold text-blue-600 dark:text-blue-500 absolute top-0 left-0 -mt-3 -ml-3">
+                                class="text-4xl font-bold text-blue-600  absolute top-0 left-0 -mt-3 -ml-3">
                                 “</div>
                             {{-- <div
-                                class="text-4xl font-bold text-blue-600 dark:text-blue-500 absolute bottom-0 right-0 -mb-3 -mr-3">
+                                class="text-4xl font-bold text-blue-600  absolute bottom-0 right-0 -mb-3 -mr-3">
                                 ”</div> --}}
                             <div class="relative">
                                 <p class="text-gray-500">
@@ -125,7 +125,7 @@
                             <div
                                 class="space-y-2 md:space-y-4 after:absolute after:bottom-0 after:mt-[1px] after:w-full after:h-1 after:bg-gray-300 after:rounded">
                                 <h2
-                                    class="font-bold text-xl lg:text-2xl text-gray-800 dark:text-gray-200 after:block after:mt-[1px] after:w-[13%] after:h-1 after:bg-blue-600 after:rounded after:absolute after:bottom-0 after:z-30">
+                                    class="font-bold text-xl lg:text-2xl text-gray-800  after:block after:mt-[1px] after:w-[13%] after:h-1 after:bg-blue-600 after:rounded after:absolute after:bottom-0 after:z-30">
                                     Misi
                                 </h2>
                             </div>
@@ -134,7 +134,7 @@
                         <ul role="list" class="space-y-2 sm:space-y-4">
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
-                                <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16"
+                                <svg class="flex-shrink-0 h-6 w-6 text-blue-600 " width="16"
                                     height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z"
@@ -152,7 +152,7 @@
 
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
-                                <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16"
+                                <svg class="flex-shrink-0 h-6 w-6 text-blue-600 " width="16"
                                     height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z"
@@ -170,7 +170,7 @@
 
                             <li class="flex space-x-3">
                                 <!-- Solid Check -->
-                                <svg class="flex-shrink-0 h-6 w-6 text-blue-600 dark:text-blue-500" width="16"
+                                <svg class="flex-shrink-0 h-6 w-6 text-blue-600 " width="16"
                                     height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M15.1965 7.85999C15.1965 3.71785 11.8387 0.359985 7.69653 0.359985C3.5544 0.359985 0.196533 3.71785 0.196533 7.85999C0.196533 12.0021 3.5544 15.36 7.69653 15.36C11.8387 15.36 15.1965 12.0021 15.1965 7.85999Z"

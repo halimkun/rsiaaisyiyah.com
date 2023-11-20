@@ -5,7 +5,7 @@
             <!-- Grid -->
             <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
                 <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
-                    <h2 class="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200">
+                    <h2 class="text-2xl text-gray-800 font-bold sm:text-3xl ">
                         Dokter Kami siap melayani anda, <br>
                         <span class="text-blue-600">Jadwal Praktek</span>
                     </h2>
@@ -44,7 +44,7 @@
             <!-- Background Color -->
             <div class="absolute inset-0 grid grid-cols-12 w-full h-full">
                 <div
-                    class="col-span-full lg:col-span-7 lg:col-start-6 bg-gray-100 w-full h-5/6 rounded-xl sm:h-3/4 lg:h-full dark:bg-white/[.075]">
+                    class="col-span-full lg:col-span-7 lg:col-start-6 bg-gray-100 w-full h-5/6 rounded-xl sm:h-3/4 lg:h-full">
                 </div>
             </div>
             <!-- End Background Color -->
@@ -83,11 +83,11 @@
             $.each(data, function(index, item) {
                 var html = `
                     <button type="button"
-                        class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 ${i == 0 ? 'active' : ''}"
+                        class="hs-tab-active:bg-white hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-gray-200 p-4 md:p-5 rounded-xl ${i == 0 ? 'active' : ''}"
                         id="tabs-with-card-item-${i+1}" data-hs-tab="#tabs-with-card-${i+1}" aria-controls="tabs-with-card-${i+1}"
                         role="tab">
                         <span class="flex">
-                            <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200"
+                            <svg class="flex-shrink-0 mt-2 h-6 w-6 md:w-7 md:h-7 hs-tab-active:text-blue-600 text-gray-800"
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                 viewBox="0 0 16 16">
                                 <path
@@ -95,10 +95,10 @@
                                 <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
                             </svg>
                             <span class="grow ml-6">
-                                <span class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                                <span class="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800">
                                     ${item[0].nm_dokter}
                                 </span>
-                                <span class="block text-sm mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                                <span class="block text-sm mt-1 text-gray-800">
                                     ${item[0].spesialis.nm_sps.toUpperCase()}
                                 </span>
                             </span>
@@ -115,7 +115,7 @@
             $.each(data, function (index, item) {
                 let html = `
                     <div id="tabs-with-card-${i+1}" role="tabpanel" aria-labelledby="tabs-with-card-item-${i+1}" ${i != 0 ? 'class="hidden"' : ''}>
-                        <div class="shadow-xl bg-white shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"><div class="aspect-w-9 aspect-h-9">
+                        <div class="shadow-xl bg-white shadow-gray-200 rounded-xl"><div class="aspect-w-9 aspect-h-9">
                                 <img class="w-full object-cover object-top rounded-t-xl"
                                     src="${imgUrl + "/" + item[0].pegawai.photo}"
                                     onerror="this.onerror=null; this.src='https://t3.ftcdn.net/jpg/00/64/67/80/360_F_64678017_zUpiZFjj04cnLri7oADnyMH0XBYyQghG.jpg';"

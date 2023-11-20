@@ -1,5 +1,5 @@
 <header class="flex flex-wrap lg:justify-start lg:flex-nowrap z-30 w-full bg-white border-b border-white/[.5] text-sm py-3 lg:py-0">
-    <nav class="relative max-w-7xl w-full mx-auto px-4 lg:flex lg:items-center lg:justify-between lg:px-6 lg:px-8" aria-label="Global">
+    <nav class="relative max-w-7xl w-full mx-auto px-4 lg:flex lg:items-center lg:justify-between lg:px-8" aria-label="Global">
         <div class="flex items-center justify-between">
             <a class="flex-none text-xl font-semibold text-slate-800" href="{{ route('home') }}" aria-label="Brand">
                 <img src="{{ asset('logo/logo-rsia-aisyiyah-pekajangan.png') }}" alt="logo" class="block h-9 w-auto fill-current text-gray-800">
@@ -35,25 +35,24 @@
                     Jadwal Dokter
                 </x-preline-nav-link>
                 <div class="hs-dropdown [--strategy:static] lg:[--strategy:fixed] [--adaptive:none] lg:[--trigger:hover] lg:py-4">
-                    <button type="button" class="flex items-center w-full text-slate-800/[.8] hover:text-slate-800 font-semibold">
+                    <button type="button" class="flex items-center w-full {{ request()->routeIs('informasi') || request()->routeIs('info.rs') || request()->routeIs('info.karir') || request()->routeIs('posts') ? 'text-blue-600' : 'text-slate-800/[.8] hover:text-slate-800' }} font-semibold">
                         Informasi
                         <svg class="ml-2 w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
                         </svg>
                     </button>
 
-                    <div
-                        class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] lg:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 lg:w-48 hidden z-50 bg-white lg:shadow-md rounded-lg p-2 dark:bg-gray-800 lg:dark:border dark:border-gray-700 dark:divide-gray-700 before:absolute top-full lg:border before:-top-5 before:left-0 before:w-full before:h-5">
-                        <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
-                            href="#">
+                    <div class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] lg:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 lg:w-48 hidden z-50 bg-white lg:shadow-md rounded-lg p-2 before:absolute top-full lg:border before:-top-5 before:left-0 before:w-full before:h-5">
+                        <a class="flex items-center font-bold gap-x-3.5 py-2 px-3 rounded-md text-sm {{ request()->routeIs('info.rs') ? 'text-blue-600' : 'text-slate-800/[.8] hover:text-slate-800' }} hover:bg-gray-100 focus:ring-2 focus:ring-blue-500   "
+                            href="{{ route('info.rs') }}">
                             Informasi Rumah Sakit
                         </a>
-                        <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
-                            href="#">
+                        <a class="flex items-center font-bold gap-x-3.5 py-2 px-3 rounded-md text-sm {{ request()->routeIs('info.karir') ? 'text-blue-600' : 'text-slate-800/[.8] hover:text-slate-800' }} hover:bg-gray-100 focus:ring-2 focus:ring-blue-500   "
+                            href="{{ route('info.karir') }}">
                             Karir
                         </a>
-                        <a class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
-                            href="#">
+                        <a class="flex items-center font-bold gap-x-3.5 py-2 px-3 rounded-md text-sm {{ request()->routeIs('posts') ? 'text-blue-600' : 'text-slate-800/[.8] hover:text-slate-800' }} hover:bg-gray-100 focus:ring-2 focus:ring-blue-500   "
+                            href="{{ route('posts') }}">
                             Artikel
                         </a>
                     </div>
@@ -64,7 +63,6 @@
                 <x-preline-nav-link href="{{ route('gallery') }}" :active="request()->routeIs('gallery')">
                     Gallery
                 </x-preline-nav-link>
-
             </div>
         </div>
     </nav>

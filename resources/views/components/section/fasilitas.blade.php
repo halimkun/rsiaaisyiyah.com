@@ -15,13 +15,13 @@
                 desc: `{{ $fasilitas->deskripsi }}`
             }"
             >
-                <div class="h-full w-full rounded-lg border-2 bg-white py-5 shadow-lg transition-all duration-200 ease-in-out hover:shadow-md dark:bg-slate-900 md:py-8">
+                <div class="h-full w-full rounded-lg border-2 bg-white py-5 shadow-lg transition-all duration-200 ease-in-out hover:shadow-md md:py-8">
                     <div class="flex flex-col items-center justify-center gap-y-4">
-                        <div class="inline-flex h-[62px] w-[62px] items-center justify-center rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
-                            <div class="fa {{ $fasilitas->icon }} text-blue-600 dark:text-blue-400"></div>
+                        <div class="inline-flex h-[62px] w-[62px] items-center justify-center rounded-full border-4 border-blue-50 bg-blue-100  ">
+                            <div class="fa {{ $fasilitas->icon }} text-blue-600 "></div>
                         </div>
                         <div class="flex-shrink-0 px-5 text-center">
-                            <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">{{ $fasilitas->nama_fasilitas }}</h3>
+                            <h3 class="block text-lg font-semibold text-gray-800 ">{{ $fasilitas->nama_fasilitas }}</h3>
                         </div>
                     </div>
                 </div>

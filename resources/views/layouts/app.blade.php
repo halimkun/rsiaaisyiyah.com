@@ -20,9 +20,9 @@
     @stack('styles')
 </head>
 
-<body class="bg-gray-50 dark:bg-slate-900">
+<body class="bg-gray-50 900">
     <!-- ========== HEADER ========== -->
-    <header class="sticky inset-x-0 top-0 z-[48] flex w-full flex-wrap border-b bg-white py-2.5 text-sm dark:border-gray-700 dark:bg-gray-800 sm:flex-nowrap sm:justify-start sm:py-4 lg:pl-64">
+    <header class="sticky inset-x-0 top-0 z-[48] flex w-full flex-wrap border-b bg-white py-2.5 text-sm   sm:flex-nowrap sm:justify-start sm:py-4 lg:pl-64">
         <nav class="mx-auto flex w-full basis-full items-center px-4 sm:px-6 md:px-8" aria-label="Global">
             <div class="mr-5 lg:mr-0 lg:hidden">
                 <x-title-text class="text-blue-600" weight="bold" title="RSIA" />
@@ -37,23 +37,23 @@
                                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                             </svg>
                         </div>
-                        <input type="text" id="icon" name="icon" class="block w-full rounded-md border-gray-200 px-4 py-2 pl-11 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400" placeholder="Search">
+                        <input type="text" id="icon" name="icon" class="block w-full rounded-md border-gray-200 px-4 py-2 pl-11 text-sm shadow-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500   " placeholder="Search">
                     </div>
                 </div>
 
                 <div class="flex flex-row items-center justify-end gap-2">
                     <div class="hs-dropdown relative inline-flex [--placement:bottom-right]">
-                        <button id="hs-dropdown-with-header" type="button" class="hs-dropdown-toggle inline-flex h-[2.375rem] w-[2.375rem] flex-shrink-0 items-center justify-center gap-2 rounded-full bg-white align-middle text-xs font-medium text-gray-700 transition-all hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-slate-800 dark:hover:text-white dark:focus:ring-gray-700 dark:focus:ring-offset-gray-800">
-                            <img class="inline-block h-[2.375rem] w-[2.375rem] rounded-full ring-2 ring-white dark:ring-gray-800" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description">
+                        <button id="hs-dropdown-with-header" type="button" class="hs-dropdown-toggle inline-flex h-[2.375rem] w-[2.375rem] flex-shrink-0 items-center justify-center gap-2 rounded-full bg-white align-middle text-xs font-medium text-gray-700 transition-all hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white">
+                            <img class="inline-block h-[2.375rem] w-[2.375rem] rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description">
                         </button>
 
-                        <div class="hs-dropdown-menu duration hidden min-w-[15rem] rounded-lg bg-white p-2 opacity-0 shadow-md transition-[opacity,margin] hs-dropdown-open:opacity-100 dark:border dark:border-gray-700 dark:bg-gray-800" aria-labelledby="hs-dropdown-with-header">
-                            <div class="-m-2 rounded-t-lg bg-gray-100 px-5 py-3 dark:bg-gray-700">
-                                <p class="text-sm text-gray-500 dark:text-gray-400">Signed in as</p>
-                                <p class="text-sm font-medium text-gray-800 dark:text-gray-300">{{ auth()->user()->email }}</p>
+                        <div class="hs-dropdown-menu duration hidden min-w-[15rem] rounded-lg bg-white p-2 opacity-0 shadow-md transition-[opacity,margin] hs-dropdown-open:opacity-100   " aria-labelledby="hs-dropdown-with-header">
+                            <div class="-m-2 rounded-t-lg bg-gray-100 px-5 py-3 ">
+                                <p class="text-sm text-gray-500 ">Signed in as</p>
+                                <p class="text-sm font-medium text-gray-800 ">{{ auth()->user()->email }}</p>
                             </div>
                             <div class="mt-2 py-2 first:pt-0 last:pb-0">
-                                <a class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-red-800 hover:bg-red-100 focus:ring-2 focus:ring-blue-500 dark:text-red-400 dark:hover:bg-red-700 dark:hover:text-red-300" href="#">
+                                <a class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-red-800 hover:bg-red-100 focus:ring-2 focus:ring-blue-500   " href="{{ route('logout') }}">
                                     <i class="fa-solid fa-arrow-right-from-bracket flex-none"></i>
                                     Logout
                                 </a>
@@ -68,7 +68,7 @@
 
     <!-- ========== MAIN CONTENT ========== -->
     <!-- Sidebar Toggle -->
-    <div class="sticky inset-x-0 top-0 z-20 border-y bg-white px-4 dark:border-gray-700 dark:bg-gray-800 sm:px-6 md:px-8 lg:hidden">
+    <div class="sticky inset-x-0 top-0 z-20 border-y bg-white px-4   sm:px-6 md:px-8 lg:hidden">
         <div class="flex items-center py-4">
             <!-- Navigation Toggle -->
             <button type="button" class="text-gray-500 hover:text-gray-600" data-hs-overlay="#application-sidebar" aria-controls="application-sidebar" aria-label="Toggle navigation">
@@ -79,13 +79,13 @@
 
             <!-- Breadcrumb -->
             <ol class="ml-3 flex min-w-0 items-center whitespace-nowrap" aria-label="Breadcrumb">
-                <li class="flex items-center text-sm text-gray-800 dark:text-gray-400">
+                <li class="flex items-center text-sm text-gray-800 ">
                     RSIA Aisyiyah
-                    <svg class="mx-3 h-2.5 w-2.5 flex-shrink-0 overflow-visible text-gray-400 dark:text-gray-600" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="mx-3 h-2.5 w-2.5 flex-shrink-0 overflow-visible text-gray-400 " width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M5 1L10.6869 7.16086C10.8637 7.35239 10.8637 7.64761 10.6869 7.83914L5 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
                     </svg>
                 </li>
-                <li class="truncate text-sm font-semibold text-gray-800 dark:text-gray-400" aria-current="page">
+                <li class="truncate text-sm font-semibold text-gray-800 " aria-current="page">
                     Dashboard
                 </li>
             </ol>
@@ -99,14 +99,14 @@
     <!-- End Sidebar -->
 
     <!-- Content -->
-    <div class="w-full px-4 pt-8 sm:px-6 md:px-8 lg:pl-72">
+    <div class="w-full px-4 py-8 sm:px-6 md:px-8 lg:pl-72">
         {{ $slot }}
     </div>
     <!-- End Content -->
     <!-- ========== END MAIN CONTENT ========== -->
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    
+    <script src="//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
     
     <script>
         const base_url = "{{ url('/') }}";

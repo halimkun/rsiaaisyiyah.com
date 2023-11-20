@@ -99,13 +99,13 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
                     @foreach ($data as $fasilitas)
                     <!-- Card -->
-                    <div class="w-full h-full bg-white shadow-lg hover:shadow-md transition-all duration-200 ease-in-out border-2 rounded-lg py-5 md:py-8 dark:bg-slate-900">
+                    <div class="w-full h-full bg-white shadow-lg hover:shadow-md transition-all duration-200 ease-in-out border-2 rounded-lg py-5 md:py-8 900">
                         <div class="flex flex-col items-center justify-center gap-y-4">
-                            <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100 dark:border-blue-900 dark:bg-blue-800">
-                                <div class="fa {{ $fasilitas->icon }} text-blue-600 dark:text-blue-400"></div>
+                            <div class="inline-flex justify-center items-center w-[62px] h-[62px] rounded-full border-4 border-blue-50 bg-blue-100  ">
+                                <div class="fa {{ $fasilitas->icon }} text-blue-600 "></div>
                             </div>
                             <div class="flex-shrink-0 text-center px-5">
-                                <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">{{ $fasilitas->nama_fasilitas }}</h3>
+                                <h3 class="block text-lg font-semibold text-gray-800 ">{{ $fasilitas->nama_fasilitas }}</h3>
                             </div>
                         </div>
                     </div>

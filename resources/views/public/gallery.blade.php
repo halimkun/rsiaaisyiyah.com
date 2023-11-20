@@ -2,10 +2,10 @@
     <!-- Masonry Cards -->
     <div class="max-w-6xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div class="text-center mb-10">
-            <h1 class="text-3xl font-bold text-gray-800 sm:text-4xl dark:text-white">
+            <h1 class="text-3xl font-bold text-gray-800 sm:text-4xl ">
                 Gallery
             </h1>
-            <p class="mt-1 text-gray-600 dark:text-gray-400">
+            <p class="mt-1 text-gray-600 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
         </div>
@@ -21,7 +21,7 @@
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-2 sm:p-4">
                         <div
-                            class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-gray-800 dark:text-gray-200">
+                            class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl  ">
                             Workplace personalities
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-2 sm:p-4">
                         <div
-                            class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-gray-800 dark:text-gray-200">
+                            class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl  ">
                             Women in engineering
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-2 sm:p-4">
                         <div
-                            class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-gray-800 dark:text-gray-200">
+                            class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl  ">
                             Pride 2021
                         </div>
                     </div>
@@ -78,7 +78,7 @@
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-2 sm:p-4">
                         <div
-                            class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-gray-800 dark:text-gray-200">
+                            class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl  ">
                             Data at Preline
                         </div>
                     </div>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="absolute bottom-0 left-0 right-0 p-2 sm:p-4">
                         <div
-                            class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl dark:bg-gray-800 dark:text-gray-200">
+                            class="text-sm font-bold text-gray-800 rounded-lg bg-white p-4 md:text-xl  ">
                             Empowered management
                         </div>
                     </div>

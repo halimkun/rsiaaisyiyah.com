@@ -49,10 +49,10 @@
                          />
                     </div>
                     <div class="mb-2 mt-2 sm:mt-4 px-3">
-                        <h3 class="text-sm font-medium text-gray-800 dark:text-gray-200 sm:text-sm">
+                        <h3 class="text-sm font-medium text-gray-800  sm:text-sm">
                             ${item.nm_dokter}
                         </h3>
-                        <p class="text-xs text-gray-600 dark:text-gray-400 sm:text-[0.7rem] ">
+                        <p class="text-xs text-gray-600  sm:text-[0.7rem] ">
                             ${item.spesialis.nm_sps.toUpperCase()}
                         </p>
                     </div>

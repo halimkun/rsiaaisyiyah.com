@@ -3,22 +3,22 @@
         <div class="w-full flex bg-blue-500 hover:bg-blur-700 rounded-lg transition p-1 ">
             <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
                 <button type="button"
-                    class="hs-tab-active:bg-white hs-tab-active:text-gray-700 py-2 px-8 inline-flex items-center gap-2 bg-transparent text-sm text-gray-200 hover:text-gray-300 font-medium rounded-md hover:hover:text-blue-800 dark:text-gray-400 dark:hover:text-white active"
+                    class="hs-tab-active:bg-white hs-tab-active:text-gray-700 py-2 px-8 inline-flex items-center gap-2 bg-transparent text-sm text-gray-200 hover:text-gray-300 font-medium rounded-md hover:hover:text-blue-800 active"
                     id="segment-item-1" data-hs-tab="#segment-1" aria-controls="segment-1" role="tab">
                     Home
                 </button>
                 <button type="button"
-                    class="hs-tab-active:bg-white hs-tab-active:text-gray-700 py-2 px-8 inline-flex items-center gap-2 bg-transparent text-sm text-gray-200 hover:text-gray-300 font-medium rounded-md hover:hover:text-blue-800 dark:text-gray-400 dark:hover:text-white"
+                    class="hs-tab-active:bg-white hs-tab-active:text-gray-700 py-2 px-8 inline-flex items-center gap-2 bg-transparent text-sm text-gray-200 hover:text-gray-300 font-medium rounded-md hover:hover:text-blue-800"
                     id="segment-item-2" data-hs-tab="#segment-2" aria-controls="segment-2" role="tab">
                     Profil
                 </button>
                 <button type="button"
-                    class="hs-tab-active:bg-white hs-tab-active:text-gray-700 py-2 px-8 inline-flex items-center gap-2 bg-transparent text-sm text-gray-200 hover:text-gray-300 font-medium rounded-md hover:hover:text-blue-800 dark:text-gray-400 dark:hover:text-white"
+                    class="hs-tab-active:bg-white hs-tab-active:text-gray-700 py-2 px-8 inline-flex items-center gap-2 bg-transparent text-sm text-gray-200 hover:text-gray-300 font-medium rounded-md hover:hover:text-blue-800"
                     id="segment-item-3" data-hs-tab="#segment-3" aria-controls="segment-3" role="tab">
                     Layanan & Fasilitas
                 </button>
                 <button type="button"
-                    class="hs-tab-active:bg-white hs-tab-active:text-gray-700 py-2 px-8 inline-flex items-center gap-2 bg-transparent text-sm text-gray-200 hover:text-gray-300 font-medium rounded-md hover:hover:text-blue-800 dark:text-gray-400 dark:hover:text-white"
+                    class="hs-tab-active:bg-white hs-tab-active:text-gray-700 py-2 px-8 inline-flex items-center gap-2 bg-transparent text-sm text-gray-200 hover:text-gray-300 font-medium rounded-md hover:hover:text-blue-800"
                     id="segment-item-3" data-hs-tab="#segment-4" aria-controls="segment-3" role="tab">
                     Jadwal Dokter
                 </button>

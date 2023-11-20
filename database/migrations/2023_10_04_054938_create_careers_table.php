@@ -15,14 +15,15 @@ return new class extends Migration
     {
         Schema::create('careers', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->text('description');
+            $table->string('name')->default('-');
+            $table->text('description')->default('-');
             $table->enum('education', ['SMA/SMK', 'D3', 'S1', 'S2', 'S3', 'profesi', 'professional', '-'])->default('-');
-            $table->text('major')->nullable();
+            $table->text('major')->default('-');
             $table->enum('type', ['fulltime', 'parttime', 'internship'])->default('fulltime');
-            $table->integer('salary_min')->nullable();
+            $table->integer('salary_min')->default(0);
             $table->boolean('active')->default(true);
             $table->date('deadline');
+            $table->string('apply_url')->default('-');
             $table->timestamps();
         });
     }

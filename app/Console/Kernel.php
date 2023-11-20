@@ -15,7 +15,13 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')->hourly();
+        // Update active status of careers
+        $schedule->call(function () {
+            $karir = \App\Models\Careers::where('active', 1)->get();
+            foreach ($karir as $k) {
+                $k->updateActiveStatus();
+            }
+        })->everyMinute()->name('updateActiveStatus')->withoutOverlapping();
     }
 
     /**
