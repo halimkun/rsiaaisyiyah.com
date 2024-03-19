@@ -1,7 +1,7 @@
 @props(['data' => []])
 
 <div class="mx-auto max-w-7xl gap-5 p-5 md:p-10" x-data="{ poli: [] }">
-    <x-section-title :text="Setting::get('poli.text')" :title="Setting::get('poli.title')" :subtitle="Setting::get('poli.subtitle')" />
+    <x-section-title title="Poliklinik" subtitle="Temukan Poliklinik yang Anda Butuhkan" />
 
     <div class="grid items-center gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:gap-6">
         @foreach ($data as $poli)

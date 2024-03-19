@@ -4,53 +4,23 @@
             <div class="relative h-[300px] overflow-hidden md:h-[500px] lg:h-[calc(100vh-200px)]">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <div class="flex h-full items-start bg-[url('https://cdn.pnghd.pics/data/16/bangunan-rumah-sakit-22.jpg')] bg-cover bg-center">
-                        <div class="mx-auto flex max-w-7xl px-10 pt-20">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores ab nulla
-                            dignissimos accusantium consequuntur doloremque iste odit? Est et hic delectus laborum
-                            porro, nulla temporibus tempora vero iure quos.
-                        </div>
-                    </div>
+                    <div class="flex h-full items-start bg-[url('https://eticon.co.id/wp-content/uploads/2020/07/Persyaratan-gedung-rumah-sakit.jpg')] bg-cover bg-center"></div>
                 </div>
                 <!-- Item 2 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <div class="flex h-full items-start bg-[url('https://cdn.pnghd.pics/data/16/bangunan-rumah-sakit-22.jpg')] bg-cover bg-center">
-                        <div class="mx-auto flex max-w-7xl px-10 pt-20">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores ab nulla
-                            dignissimos accusantium consequuntur doloremque iste odit? Est et hic delectus laborum
-                            porro, nulla temporibus tempora vero iure quos.
-                        </div>
-                    </div>
+                    <div class="flex h-full items-start bg-[url('https://eticon.co.id/wp-content/uploads/2020/07/Persyaratan-gedung-rumah-sakit.jpg')] bg-cover bg-center"></div>
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <div class="flex h-full items-start bg-[url('https://cdn.pnghd.pics/data/16/bangunan-rumah-sakit-22.jpg')] bg-cover bg-center">
-                        <div class="mx-auto flex max-w-7xl px-10 pt-20">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores ab nulla
-                            dignissimos accusantium consequuntur doloremque iste odit? Est et hic delectus laborum
-                            porro, nulla temporibus tempora vero iure quos.
-                        </div>
-                    </div>
+                    <div class="flex h-full items-start bg-[url('https://eticon.co.id/wp-content/uploads/2020/07/Persyaratan-gedung-rumah-sakit.jpg')] bg-cover bg-center"></div>
                 </div>
                 <!-- Item 4 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <div class="flex h-full items-start bg-[url('https://cdn.pnghd.pics/data/16/bangunan-rumah-sakit-22.jpg')] bg-cover bg-center">
-                        <div class="mx-auto flex max-w-7xl px-10 pt-20">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores ab nulla
-                            dignissimos accusantium consequuntur doloremque iste odit? Est et hic delectus laborum
-                            porro, nulla temporibus tempora vero iure quos.
-                        </div>
-                    </div>
+                    <div class="flex h-full items-start bg-[url('https://eticon.co.id/wp-content/uploads/2020/07/Persyaratan-gedung-rumah-sakit.jpg')] bg-cover bg-center"></div>
                 </div>
                 <!-- Item 5 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                    <div class="flex h-full items-start bg-[url('https://cdn.pnghd.pics/data/16/bangunan-rumah-sakit-22.jpg')] bg-cover bg-center">
-                        <div class="mx-auto flex max-w-7xl px-10 pt-20">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia dolores ab nulla
-                            dignissimos accusantium consequuntur doloremque iste odit? Est et hic delectus laborum
-                            porro, nulla temporibus tempora vero iure quos.
-                        </div>
-                    </div>
+                    <div class="flex h-full items-start bg-[url('https://eticon.co.id/wp-content/uploads/2020/07/Persyaratan-gedung-rumah-sakit.jpg')] bg-cover bg-center"></div>
                 </div>
             </div>
             <!-- Slider controls -->
@@ -83,8 +53,8 @@
                 <div class="group flex flex-col rounded-xl border bg-white shadow-sm transition hover:shadow-md">
                     <div class="p-8 md:p-10">
                         <h1 class="text-2xl">Selamat Datang,</h1>
-                        <h1 class="text-4xl font-bold">RSIA Aisyiyah Pekajangan</h1>
-                        <p class="mt-4 text-xl">Sehat dan bahagia bersama kami</p>
+                        <h1 class="text-4xl font-bold">{{ Setting::get('site.title') }}</h1>
+                        <p class="mt-4 text-xl">{{ Setting::get('site.slogan') }}</p>
                     </div>
                 </div>
                 <div class="group flex flex-col rounded-xl bg-blue-600 shadow-sm transition hover:shadow-md">
@@ -95,12 +65,12 @@
                             <div class="mt-4 flex flex-col items-end gap-6 md:flex-row">
                                 <div class="flex w-full flex-col gap-2">
                                     <x-input-label for="nama" label="nama" class="text-white" :value="__('Nama Dokter')" />
-                                    <x-text-input name="nama" id="nama" class="border border-gray-300 rounded-lg p-2" />
+                                    <x-text-input name="nama" id="nama" class="rounded-lg border border-gray-300 p-2" />
                                 </div>
                                 <div class="flex w-full flex-col gap-2">
                                     <x-input-label for="spesialis" label="spesialis" class="text-white" :value="__('Spesialis')" />
                                     {{-- select --}}
-                                    <select name="spesialis" id="spesialis" class="border border-gray-300 rounded-lg p-2">
+                                    <select name="spesialis" id="spesialis" class="rounded-lg border border-gray-300 p-2">
                                         <option value="">Pilih Spesialis</option>
                                         <template x-for="item in spesialis" key="item.kd_sps">
                                             <option class="uppercase" x-text="item.nm_sps" :value="item.kd_sps"></option>
@@ -127,20 +97,20 @@
     <!-- End poliklinik Blocks -->
 
     <!-- Dokter -->
-    <div class="w-full bg-gray-100 py-10">
+    {{-- <div class="w-full bg-gray-100 py-10">
         <x-section.dokter />
-    </div>
+    </div> --}}
     <!-- End Dokter -->
 
     <!-- Fasilitas -->
-    <div class="w-full bg-white py-20">
+    {{-- <div class="w-full bg-white py-20">
         <x-section.fasilitas :data="$fasil" />
-    </div>
+    </div> --}}
     <!-- End Fasilitas -->
 
     <!-- Card Blog -->
-    <div class="w-full bg-white py-20">
+    {{-- <div class="w-full bg-white py-20">
         <x-section.some-articles />
-    </div>
+    </div> --}}
     <!-- End Card Blog -->
 </x-public-layout>
