@@ -62,6 +62,15 @@ Route::middleware('auth')->prefix('admin')->group(function ($router) {
         $router->post('/store', [SettingsController::class, 'store'])->name('admin.settings.store');
         $router->post('/carousel/store', [CarouselController::class, 'store'])->name('admin.settings.carousel.store');
     });
+
+    $router->prefix('poli')->group(function ($router) {
+        $router->get('/', [PoliKlinikController::class, 'index'])->name('admin.poli');
+        $router->get('{id}/edit', [PoliKlinikController::class, 'edit'])->name('admin.poli.edit');
+
+        $router->post('/store', [PoliKlinikController::class, 'store'])->name('admin.poli.store');
+        $router->post('/update', [PoliKlinikController::class, 'update'])->name('admin.poli.update');
+        $router->post('/delete', [PoliKlinikController::class, 'delete'])->name('admin.poli.delete');
+    });
     
     // $router->get('/setting/section', [SectionController::class, 'index'])->name('admin.sections');
 

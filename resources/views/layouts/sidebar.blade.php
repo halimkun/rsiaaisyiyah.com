@@ -6,14 +6,14 @@
     <nav class="hs-accordion-group flex w-full flex-col flex-wrap p-6" data-hs-accordion-always-open>
         <ul class="space-y-1.5">
             <li>
-                <a class="{{ request()->routeIs('admin.home') ? 'bg-blue-500 text-white hover:bg-blue-700' : 'text-slate-700 hover:bg-gray-100' }} flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm" href="{{ route('admin.home') }}">
+                <a class="{{ request()->routeIs('admin.home') ? 'bg-blue-500 text-white hover:bg-blue-700' : 'text-slate-700 hover:text-slate-100 hover:bg-blue-500' }} flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm" href="{{ route('admin.home') }}">
                     <i class="fa-solid fa-chart-simple h-3.5 w-3.5 flex-shrink-0 transition duration-75"></i>
                     Dashboard
                 </a>
             </li>
 
             <li class="hs-accordion" id="bu-posts-accordion">
-                <a class="hs-accordion-toggle flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:bg-gray-100 hs-accordion-active:text-blue-600 hs-accordion-active:hover:bg-transparent" href="javascript:;">
+                <a class="hs-accordion-toggle flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:text-slate-100 hover:bg-blue-500 hs-accordion-active:text-blue-600 hs-accordion-active:hover:bg-transparent" href="javascript:;">
                     <i class="fa-regular fa-newspaper h-3.5 w-3.5 flex-shrink-0 transition duration-75"></i>
                     Posts
 
@@ -29,17 +29,17 @@
                 <div id="bu-posts-accordion" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300">
                     <ul class="pl-2 pt-2">
                         <li>
-                            <a class="flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:bg-gray-100" href="javascript:;">
+                            <a class="flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:text-slate-100 hover:bg-blue-500" href="javascript:;">
                                 Informasi Rumah Sakit
                             </a>
                         </li>
                         <li>
-                            <a class="flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:bg-gray-100" href="javascript:;">
+                            <a class="flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:text-slate-100 hover:bg-blue-500" href="javascript:;">
                                 Artikel
                             </a>
                         </li>
                         <li>
-                            <a class="flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:bg-gray-100" href="{{ route('admin.karir') }}">
+                            <a class="flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:text-slate-100 hover:bg-blue-500" href="{{ route('admin.karir') }}">
                                 karir
                             </a>
                         </li>
@@ -48,19 +48,25 @@
             </li>
 
             <li>
-                <a class="flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:bg-gray-100" href="javascript:;">
+                <a class="{{ request()->routeIs('admin.poli') ? 'bg-blue-500 text-white hover:bg-blue-700' : 'text-slate-700 hover:text-slate-100 hover:bg-blue-500' }} flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:text-slate-100 hover:bg-blue-500" href="{{ route('admin.poli') }}">
+                    <i class="fa-regular fa-hospital h-3.5 w-3.5 flex-shrink-0 transition duration-75"></i>
+                    Poliklinik
+                </a>
+            </li>
+            <li>
+                <a class="flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:text-slate-100 hover:bg-blue-500" href="javascript:;">
                     <i class="fa-regular fa-images h-3.5 w-3.5 flex-shrink-0 transition duration-75"></i>
                     Gallery
                 </a>
             </li>
             {{-- <li class="bg-yellow-300 rounded">
-                <a class="{{ request()->routeIs('admin.sections') ? 'bg-blue-500 text-white hover:bg-blue-700' : 'text-slate-700 hover:bg-gray-100' }} flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm" href="{{ route('admin.sections') }}">
+                <a class="{{ request()->routeIs('admin.sections') ? 'bg-blue-500 text-white hover:bg-blue-700' : 'text-slate-700 hover:text-slate-100 hover:bg-blue-500' }} flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm" href="{{ route('admin.sections') }}">
                     <i class="fa-solid fa-puzzle-piece h-3.5 w-3.5 flex-shrink-0 transition duration-75"></i>
                     Section Settings
                 </a>
             </li> --}}
             <li>
-                <a class="flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:bg-gray-100" href="{{ route('admin.settings') }}">
+                <a class="{{ request()->routeIs('admin.settings') ? 'bg-blue-500 text-white hover:bg-blue-700' : 'text-slate-700 hover:text-slate-100 hover:bg-blue-500' }} flex items-center gap-x-3.5 rounded-md px-2.5 py-2 text-sm text-slate-700 hover:text-slate-100 hover:bg-blue-500" href="{{ route('admin.settings') }}">
                     <i class="fa-solid fa-gear h-3.5 w-3.5 flex-shrink-0 transition duration-75"></i>
                     Settings
                 </a>

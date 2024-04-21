@@ -6,9 +6,26 @@ use Illuminate\Http\Request;
 
 class PoliKlinikController extends Controller
 {
+    function index()
+    {
+        $data = \App\Models\Poliklinik::all();
+        return view('poli', [
+            'data' => $data
+        ]);
+    }
+
+    function edit($id, Request $request)
+    {
+        $poli = \App\Models\Poliklinik::where('id', $id)->first();
+        $data = \App\Models\Poliklinik::all();
+        return view('poli', [
+            'data' => $data,
+            'poli' => $poli
+        ]);
+    }
+
     function store(Request $request)
     {
-        // nama_poli required
         $request->validate([
             'nama_poli' => 'required|max:50',
             'shortdesc' => 'required|max:150',
@@ -34,16 +51,11 @@ class PoliKlinikController extends Controller
 
         if (\App\Models\Poliklinik::create($data)) {
             $file->move('public/images', $nama_file);
-            return response()->json([
-                'status' => 'success',
-                'message' => 'Data berhasil disimpan'
-            ]);
-        } else {
-            return response()->json([
-                'status' => 'error',
-                'message' => 'Data gagal disimpan'
-            ]);
+
+            return redirect()->back()->with('success', 'Data berhasil disimpan');
         }
+
+        return redirect()->back()->with('error', 'Data gagal disimpan')->withInput();
     }
 
     function update(Request $request)
@@ -75,7 +87,7 @@ class PoliKlinikController extends Controller
             if ($request->file('gambar')) {
                 $file->move('public/images', $nama_file);
             }
-            
+
             return response()->json([
                 'status' => 'success',
                 'message' => 'Data berhasil disimpan'
@@ -120,7 +132,8 @@ class PoliKlinikController extends Controller
         ]);
     }
 
-    function delete(Request $request) {
+    function delete(Request $request)
+    {
         $data = \App\Models\Poliklinik::where('id', $request->id)->first();
         if ($data) {
             if (\App\Models\Poliklinik::where('id', $request->id)->delete()) {
